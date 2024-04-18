@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+    font-family: "lato";
+    line-height: 0;
+}
+h3{
+    font-size: 20px;
+    font-family: "condiment";
+    line-height: 0;
+}
+.about-title{
+    font-family: "lato";
+    float: right;
+    padding: 20px 10px;
+}
+.project-title{
+    font-family: "lato";
+    position: absolute;
+    top: 5%;
+    left: 44%;
+}
+.contact-title{
+    font-family: "lato";
+}
+.contact-tagline{
+    font-size: 20px;
+    color: hotpink;
+}
+h2{
+    font-size: 20px;
+    font-family: "commissioner";
+    padding: 5% 10%;
+}
+p{
+    font-family: "lato";
+    padding-top: 20%;
+}
+a{
+    color: black;
+}
+/*loader*/
+.loader{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: pink;
+    z-index: 2;
+    overflow: hidden;
+    animation: loader 2s ease 2s;
+animation-fill-mode: forwards;
+}
+.loader .intro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.loader .intro h3{
+    font-size: 120px;
+    color: black;
+}
+@keyframes .loader{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        z-index: -2;
+    }
+}
+/*Landing Page*/
+#landingpage
